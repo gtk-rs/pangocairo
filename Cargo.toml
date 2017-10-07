@@ -10,8 +10,8 @@ description = "Rust bindings for the PangoCairo library"
 repository = "https://github.com/gtk-rs/pangocairo"
 license = "MIT"
 
-[features]
-dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
+# [features]
+# dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
 
 [dependencies]
 libc = "0.2"
