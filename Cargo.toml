@@ -16,35 +16,11 @@ dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
 [dependencies]
 libc = "0.2"
 bitflags = "0.9"
-
-[dependencies.pango-sys]
-version = "0.4.0"
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.glib]
-version = "0.3.0"
-git = "https://github.com/gtk-rs/glib"
-
-[dependencies.glib-sys]
-version = "0.4.0"
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.gobject-sys]
-version = "0.4.0"
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.cairo-sys-rs]
-version = "0.4.0"
-git = "https://github.com/gtk-rs/cairo"
-
-[dependencies.pangocairo-sys]
-version = "0.4.1"
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.pango]
-version = "0.2.0"
-git = "https://github.com/gtk-rs/pango"
-
-[dependencies.cairo-rs]
-version = "0.2.0"
-git = "https://github.com/gtk-rs/cairo"
+pango-sys = "0.4.0"
+glib = "0.3.0"
+glib-sys = "0.4.0"
+gobject-sys = "0.4.0"
+cairo-sys-rs = "0.4.0"
+pangocairo-sys = "0.4.1"
+pango = "0.2.0"
+cairo-rs = "0.2.0"
