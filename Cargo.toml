@@ -12,7 +12,7 @@ license = "MIT"
 build = "build.rs"
 
 [features]
-# dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
+dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
 purge-lgpl-docs = ["gtk-rs-lgpl-docs", "cairo-rs/purge-lgpl-docs"]
 embed-lgpl-docs = ["gtk-rs-lgpl-docs", "cairo-rs/embed-lgpl-docs"]
 
