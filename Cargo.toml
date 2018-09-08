@@ -14,6 +14,10 @@ exclude = [
     "gir-files/*",
 ]
 
+[badges]
+appveyor = { repository = "GuillaumeGomez/pangocairo", service = "github" }
+travis-ci = { repository = "gtk-rs/pangocairo" }
+
 [features]
 dox = ["glib/dox", "pango/dox", "cairo-rs/dox"]
 purge-lgpl-docs = ["gtk-rs-lgpl-docs", "cairo-rs/purge-lgpl-docs"]
@@ -33,4 +37,7 @@ pangocairo-sys = "0.7.0"
 pango-sys = "0.6.0"
 pango = "0.4.0"
 libc = "0.2"
-bitflags = "0.9"
+bitflags = "1.0"
+
+[dev-dependencies]
+gir-format-check = "^0.1"
