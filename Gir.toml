@@ -103,12 +103,17 @@ status = "generate"
 [[object]]
 name = "PangoCairo.FontMap"
 status = "generate"
+manual_traits = ["FontMapExtManual"]
     [[object.function]]
     name = "get_font_type"
     ignore = true
+    doc_trait_name = "FontMapExtManual"
     [[object.function]]
     name = "new_for_font_type"
     ignore = true
     [[object.function]]
     name = "new"
+    ignore = true
+    [[object.function]]
+    name = "set_default"
     ignore = true
